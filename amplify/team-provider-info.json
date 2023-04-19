@@ -32,6 +32,10 @@
         "lambda": {
           "deploymentBucketName": "amplify-amplifyiim-simon-100138-deployment",
           "s3Key": "amplify-builds/lambda-46744b494f3757483162-build.zip"
+        },
+        "iimlambda": {
+          "deploymentBucketName": "amplify-amplifyiim-simon-100138-deployment",
+          "s3Key": "amplify-builds/iimlambda-61437555437047386337-build.zip"
         }
       },
       "api": {

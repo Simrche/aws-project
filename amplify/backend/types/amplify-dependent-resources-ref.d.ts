@@ -7,6 +7,13 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "function": {
+    "iimlambda": {
+      "Arn": "string",
+      "LambdaExecutionRole": "string",
+      "LambdaExecutionRoleArn": "string",
+      "Name": "string",
+      "Region": "string"
+    },
     "lambda": {
       "Arn": "string",
       "CloudWatchEventRule": "string",

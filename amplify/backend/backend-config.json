@@ -16,6 +16,12 @@
     }
   },
   "function": {
+    "iimlambda": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "lambda": {
       "build": true,
       "dependsOn": [],
@@ -24,6 +30,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_iimlambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "iimlambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_iimlambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "iimlambda"
+        }
+      ]
+    },
     "AMPLIFY_function_lambda_deploymentBucketName": {
       "usedBy": [
         {
