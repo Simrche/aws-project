@@ -1,0 +1,10 @@
+{
+  "resourceName": "dbsimon",
+  "tableName": "dbsimon",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

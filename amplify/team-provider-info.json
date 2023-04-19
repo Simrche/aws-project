@@ -23,6 +23,20 @@
       "StackName": "amplify-amplifyiim-simon-100138",
       "StackId": "arn:aws:cloudformation:eu-west-1:059806695932:stack/amplify-amplifyiim-simon-100138/69f92e90-de88-11ed-93c5-06f5125bf4df",
       "AmplifyAppId": "d3hjg34s5bgixe"
+    },
+    "categories": {
+      "storage": {
+        "dbsimon": {}
+      },
+      "function": {
+        "lambda": {
+          "deploymentBucketName": "amplify-amplifyiim-simon-100138-deployment",
+          "s3Key": "amplify-builds/lambda-46744b494f3757483162-build.zip"
+        }
+      },
+      "api": {
+        "api": {}
+      }
     }
   }
 }
